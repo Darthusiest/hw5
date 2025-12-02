@@ -38,6 +38,15 @@ bool schedule(
     sched.clear();
     // Add your code below
 
+    size_t numDays = avail.size(); //number of days
+    size_t numWorkers = avail[0].size(); //number of possible workers
+
+    //set sched row = days, col = workers
+    sched.assign(numDays, std::vector<Worker_T>());
+    
+
+    
+
 
 
 
